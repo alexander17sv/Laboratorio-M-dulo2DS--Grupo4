@@ -1,0 +1,100 @@
+/* Configuración General */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f9;
+    color: #333;
+}
+
+/* Estilo del Menú de Navegación */
+nav {
+    background-color: #2c3e50;
+    padding: 1rem;
+    text-align: center;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+nav a:hover {
+    color: #3498db;
+}
+
+/* Contenedor Principal */
+main {
+    max-width: 1200px;
+    margin: 40px auto;
+    padding: 20px;
+}
+
+/* Sección de Contenido */
+.contenido-tecnologia {
+    background: white;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.05);
+}
+
+h2 {
+    color: #2c3e50;
+    border-bottom: 3px solid #3498db;
+    display: inline-block;
+    padding-bottom: 5px;
+    margin-bottom: 20px;
+}
+
+p {
+    margin-bottom: 15px;
+    text-align: justify;
+}
+
+/* Pie de página (simulado por el texto de derechos) */
+footer, .derechos {
+    text-align: center;
+    font-size: 0.9rem;
+    color: #7f8c8d;
+    margin-top: 30px;
+    padding-bottom: 20px;
+}
+
+#inicio-hero {
+    /* Reemplaza 'tu-imagen.jpg' por el nombre real de tu imagen */
+    background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('tecnologiapor.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 60vh; /* Ajusta la altura (60% de la pantalla) */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white;
+}
+
+.contenido-hero h1 {
+    font-size: 3rem;
+    margin-bottom: 10px;
+    text-shadow: 2px 2px 4px rgba(0,0,0,0.7);
+}
+
+.contenido-hero p {
+    font-size: 1.5rem;
+    font-weight: 300;
+}
+
+.footer {
+background-color: rgb(5,43,150); /* Cambia el color de fondo a azul */
+padding: 2.5rem;
+color: #fffdfd;
+color: #ffffff; /* Color del texto en el encabezado para asegurar la legibilidad */
+text-align: center; /* Alinea el contenido al centro del encabezado */
+/* Espacio de relleno interno para el contenido */
+
+}
