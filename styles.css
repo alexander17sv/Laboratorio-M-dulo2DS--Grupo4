@@ -14,6 +14,8 @@ nav {
     padding: 1rem;
     text-align: center;
     box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    flex-wrap: wrap;
+    gap: 15px;
 }
 
 nav a {
@@ -97,6 +99,13 @@ color: #ffffff; /* Color del texto en el encabezado para asegurar la legibilidad
 text-align: center; /* Alinea el contenido al centro del encabezado */
 /* Espacio de relleno interno para el contenido */
 
+}
+
+@media (max-width: 600px) {
+    nav a {
+        font-size: 14px;
+        padding: 4px 8px;
+    }
 }
 
 
