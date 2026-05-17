@@ -67,7 +67,7 @@ footer, .derechos {
 
 #inicio-hero {
     /* Reemplaza 'tu-imagen.jpg' por el nombre real de tu imagen */
-    background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('tecnologiapor.jpg');
+    background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('IMG/tecnologiapor.jpg');
     background-size: cover;
     background-position: center;
     height: 60vh; /* Ajusta la altura (60% de la pantalla) */
